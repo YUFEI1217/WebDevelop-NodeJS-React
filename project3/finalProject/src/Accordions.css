@@ -1,0 +1,31 @@
+.Accordion__title__area {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.Accordion__item {
+    margin-bottom: 20px;
+    border-top: 1px black solid;
+}
+
+.Accordion__h3__title {
+    padding-left: 20%;
+}
+
+.Accordion__arrow{
+    padding-right: 20%;
+    padding-top: 2%;
+}
+
+.Accordion__content{
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    text-align: left;
+}
+

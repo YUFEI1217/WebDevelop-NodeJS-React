@@ -1,0 +1,182 @@
+.home_main_list {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 20px;
+    padding: 0.5rem;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.home_card_title {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.home_main_item {
+    background-color: #eeeeee;
+    grid-column: span 12;
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.home_card > p {
+    margin-bottom: 2px;
+}
+
+.home_img_area {
+    text-align: center;
+    float: left;
+    margin-right: 1rem;
+}
+
+.home_main_item:nth-child(2n+1) .home_card .home_img_area {
+    float: right;
+    margin-left: 1rem;
+}
+
+.home_card_img {
+    transform: translateY(-12%);
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+
+
+.home_card_link {
+    margin-top: 10px;
+    color: blue;
+    border: none;
+    font-size: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.home_card_link:hover, .home_card_link:focus {
+    background-color: dodgerblue;
+}
+
+
+.modal { 
+    width: 40%;
+    height: 75%;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 16px;
+
+    background-color: white;
+}
+
+.modal_title {
+    text-align: center;
+    grid-column: span 12;
+}
+
+.modal::backdrop { 
+    background-color: rgb(0 0 0 / 0.8 ); 
+}
+
+.input_item {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.input_item > span {
+    height: 24px;
+    width: 100%;
+}
+
+.register-form__label {
+    justify-self: right;
+    height: 25%;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.register-form__input {
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 28px;
+}
+
+.checkbox_item {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.register-form__label--checkbox {
+    width: 50%;
+    transform: translateX(5px); 
+}
+
+.register-form__checkbox {
+    justify-self: left;
+    /* margin-left: 1rem; */
+    transform: translateY(2px); 
+}
+
+.input_button {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.register-form__button {
+    transform: translateX(70%);
+    width: 40%;
+    padding: 0.5rem;
+    border-radius: 4px;
+
+    font-size: 1.2rem;
+}
+
+.submit_button {
+    transform: translateX(0%);
+    /* background-color: #eeeeee */
+    width: 20%;
+    color: blue;
+    border: none;
+    font-size: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.input_button > p {
+    font-size: 1.2rem;
+    background-color: #eeeeee;
+}
+
+.close_button {
+    background-color: red;
+}
+
+.register-form__button:hover,
+.register-form__button:focus {
+    background-color: papayawhip;  
+}
+
+.register-form__error{
+    font-size: 0.9rem;
+    color: red;
+}
+
+.register-form__error--username {
+    transform: translateX(1px);
+}
+
+
+@media (max-width:44rem) {
+    .home_card_img{
+        transform: translateY(0);
+    }
+}

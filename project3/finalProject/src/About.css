@@ -1,0 +1,51 @@
+.About_main_content {
+    width: 100%;
+    text-align: center;
+}
+
+.About_left_side {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
+
+.about_h2_title {
+    /* grid-area: title; */
+    grid-column: span 2;
+    font-size: 2rem;
+    color:cyan;
+    text-align: center;
+}
+
+.about__image {
+    padding: 20px;
+    height: 100px;
+    width: 150px;
+    grid-column: span 1;
+    transition: all 2s;
+}
+
+.about__image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.about__description {
+    /* grid-area: desc; */
+    grid-column: span 3;
+    font-size: 1.6rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Accordion__list {
+    grid-column: span 3;
+    height: 100%;
+    padding: 0.5rem;
+    list-style-type: none;
+}
+
+.about_QA {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+

@@ -1,0 +1,41 @@
+.carousel__container {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    border-top: 5px groove #98bf21;
+    border-bottom: 5px groove #98bf21;
+    /* border-style: groove; */
+}
+  
+.carousel__image {
+    width: 80%;
+    height: 30vw;
+    border-radius: 8px;
+}
+
+.carousel__image:hover {
+    cursor: pointer;
+}
+  
+.carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.back__btn {
+    transform: translate(-100%, -30%);
+}
+
+@media(max-width:38rem) {
+    .carousel__button {
+        font-size: 0.5rem;
+        padding: 5px;
+    }
+}

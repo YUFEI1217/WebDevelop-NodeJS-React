@@ -1,0 +1,34 @@
+.main_list {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 20px;
+    list-style-type: \1F431;
+}
+
+.main_item {
+    grid-column: span 6;
+    border: 1px blue solid;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.link_href {
+    text-decoration: none;
+}
+
+.main_item--link {
+    color: blue;
+}
+
+.cats_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cat_img {
+    width: 25vw;
+    padding-left: 20%;
+}

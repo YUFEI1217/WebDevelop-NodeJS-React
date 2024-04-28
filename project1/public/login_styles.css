@@ -1,0 +1,72 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color:aliceblue;
+
+    font-family: sans-serif;
+    line-height: 1.6;
+
+    max-width: 62.5rem;
+    min-width: 22.5rem;
+}
+
+body {
+    margin: 0;
+    /* padding: 0; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.login_h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: coral;
+}
+
+.login_form {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+
+    background-color: white;
+}
+
+.login_label {
+    grid-column: span 1;
+    justify-self: right;
+    height: 25%;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+.input_username {
+    grid-column: span 2;
+    height: 100%;
+    width: 100%;
+}
+
+.login_error {
+    grid-column: span 3;
+    justify-self: center;
+    font-size: 0.875rem;
+    color: red;
+}
+
+.login_btn {
+    grid-column: span 3;
+    justify-self: center;
+
+    margin-top: 1.6rem;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    background-color: chocolate;
+
+    font-size: 1.2rem;
+}

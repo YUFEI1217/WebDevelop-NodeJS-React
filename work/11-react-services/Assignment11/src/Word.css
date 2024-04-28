@@ -1,0 +1,24 @@
+.word_div {
+    grid-column: span 4;
+}
+
+.logout_btn {
+    margin-left: 80%;
+    width: 20%;
+    padding: 0.5rem 0.8rem;
+    border-radius: 4px;
+    background-color:silver ;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.data_h2 {
+    grid-column: span 4;
+    text-align: center;
+    font-size: 3rem;
+    color: coral;
+}
+
+.word_show {
+    grid-column: span 4;
+}

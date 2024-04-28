@@ -1,0 +1,140 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color:aliceblue;
+
+    font-family: sans-serif;
+    line-height: 1.6;
+
+    min-width: 50rem;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: burlywood;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 3rem;
+    color: chocolate;
+    margin: 0;
+}
+
+.footer {
+    background-color: burlywood;
+    text-align: center;
+}
+
+.footer__privacy {
+    margin: 0;
+    color: chocolate;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.main {
+    margin: 0;
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.main_div {
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    text-align: center;
+    background-color:antiquewhite;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 50%;
+}
+
+.login_label {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+.input_username {
+    width: 50%;
+    font-size: 1rem;
+    margin-left: 25%;
+    margin-bottom: 2%;
+}
+
+.err_status{
+    font-size: 1rem;
+    color: red;
+    margin-bottom: 2%;
+}
+
+.login_btn {
+    margin-left: 35%;
+    width: 30%;
+    margin-bottom: 1%;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.logout_btn {
+    margin-top: 1%;
+    margin-left: 75%;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.chat_h2 {
+    font-size: 2rem;
+    color: chocolate;
+}
+
+.list_part {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.userlist_div {
+    grid-column: span 1;
+}
+
+.chatlist_div {
+    grid-column: span 1;
+}
+
+.user_list {
+    list-style-type: none;
+}
+
+.chats {
+    list-style-type: none;
+}
+
+.add_form {
+    margin-bottom: 2%;
+}
+
+.send_btn {
+    cursor: pointer;
+}
+
+.input_chat {
+    font-size: 1.2rem;
+}

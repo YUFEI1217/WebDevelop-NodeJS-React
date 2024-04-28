@@ -1,0 +1,42 @@
+.word_form {
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.word_label {
+    grid-column: span 2;
+    justify-self: right;
+    height: 25%;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.word_input {
+    grid-column: 3 / 5;
+}
+
+.guess_word {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: darkorange;
+}
+
+.word_btn {
+    grid-column: span 5;
+    justify-self: center;
+
+    margin-top: 1.6rem;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    background-color: chocolate;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.error_message {
+    grid-column: span 5;
+    color: red;
+}

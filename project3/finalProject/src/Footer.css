@@ -1,0 +1,11 @@
+.footer {
+    background-color:deepskyblue;
+}
+
+.footer_link {
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    font-size: 1rem;
+}

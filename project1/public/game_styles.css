@@ -1,0 +1,116 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color:aliceblue;
+
+    font-family: sans-serif;
+    line-height: 1.6;
+
+    /* max-width: 1000px;
+    min-width: 360px; */
+}
+
+body {
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.data_h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: coral;
+}
+
+.main_data {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    background-color: white;
+}
+
+.newGame_form {
+    grid-column: span 4;
+}
+
+.newGame_form {
+    justify-self: right;
+}
+
+.word_show {
+    grid-column: span 4;
+}
+
+.match_letter {
+    grid-column: span 4;
+}
+
+.guess_form {
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+}
+
+.guess_label {
+    grid-column: span 2;
+    justify-self: right;
+    height: 25%;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.guess_input {
+    grid-column: span 3;
+}
+
+.guess_btn {
+    grid-column: span 5;
+    justify-self: center;
+
+    margin-top: 1.6rem;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    background-color: chocolate;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.guess_error {
+    grid-column: span 5;
+    justify-self: center;
+    color: red;
+}
+
+.guess_success {
+    grid-column: span 5;
+    justify-self: center;
+    color: orange;
+}
+
+.logout_form {
+    text-align: right;
+}
+
+.logout_btn {
+    padding: 0.5rem 0.8rem;
+    border-radius: 4px;
+    background-color:silver ;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.newGame_btn {
+    padding: 0.5rem 0.8rem;
+    border-radius: 4px;
+    background-color: chocolate;
+    cursor: pointer;
+    font-size: 1rem;
+}

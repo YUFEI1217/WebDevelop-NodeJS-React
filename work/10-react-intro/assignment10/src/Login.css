@@ -1,0 +1,60 @@
+.header {
+    text-align: center;
+}
+
+.head_h2 {
+    font-size: 2rem;
+}
+
+.login_div {
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    text-align: center;
+    background-color:antiquewhite;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 50%;
+}
+
+.login_label {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+.input_username {
+    width: 50%;
+    font-size: 1rem;
+    margin-left: 25%;
+    margin-bottom: 2%;
+}
+
+.err_status{
+    font-size: 1rem;
+    color: red;
+    margin-bottom: 2%;
+}
+
+.login_btn {
+    margin-left: 35%;
+    width: 30%;
+    margin-bottom: 1%;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.login__error {
+    color: red;
+    margin-bottom: 2%;
+}

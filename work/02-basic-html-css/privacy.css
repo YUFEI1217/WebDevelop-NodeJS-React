@@ -1,0 +1,29 @@
+.privacy_main_list {
+    margin: 0;
+    padding: 5%;
+    list-style-type: none;
+    line-height: 1.6;
+}
+
+.privacy_main_list--item {
+    padding: 10px;
+    text-align: center;
+}
+
+.item_h2 {
+    margin: 0;
+}
+
+.index_link {
+    color: red;
+}
+
+.privacy_main_list--item > p {
+    margin: 0;
+}
+
+.privacy_main_list--item > p::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+    color: brown;
+}
